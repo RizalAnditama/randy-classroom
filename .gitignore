@@ -125,3 +125,6 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
+note.txt
+app/Controllers/Test.php
+app/Views/pages/blajar.php

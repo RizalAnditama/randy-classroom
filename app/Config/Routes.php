@@ -52,6 +52,7 @@ $routes->get('/', 'Materi::landing');
 $routes->get('materi', 'Materi::home');
 $routes->get("/search", "Materi::search");
 
+$routes->add("test", 'Test::index');
 $routes->get('/materi/(:any)/(:any)/(:any)', 'Materi::viewBlog/$1/$2/$3');
 $routes->get('/materi/(:any)/(:any)', 'Materi::viewBlog/$1/$2');
 $routes->get('/materi/(:any)', 'Materi::viewBlog/$1');
